@@ -6,7 +6,7 @@ import { actionWrapper } from '..';
 import { AUTH_ACTIONS } from '../../constants/ActionConstants';
 
 // services
-import { AccessToken } from '../../services/api/apiClient';
+import { AccessToken } from '../../services/api';
 import {
   getAccessToken,
   setAccessToken,

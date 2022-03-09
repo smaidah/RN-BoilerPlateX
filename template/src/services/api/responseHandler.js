@@ -1,5 +1,7 @@
+import { STATUS_CODES } from '../../constants/HttpStatusCodes';
+
 export function handleResponse(response) {
-  if (response && response.status === 200) {
+  if (response && response.status === STATUS_CODES.OK) {
     return response.data;
   } else {
     handleError(response);

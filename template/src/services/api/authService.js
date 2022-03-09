@@ -1,10 +1,10 @@
-import { ApiClient } from './apiClient';
+import { apiClient } from './index';
 import ApiConstants from '../../constants/ApiConstants';
 import { handleError, handleResponse } from './responseHandler';
 
 export const login = async (model) => {
   try {
-    // const response = await ApiClient().post(ApiConstants.LOGIN, model);
+    // const response = await apiClient().post(ApiConstants.LOGIN, model);
     const dummyResponse = {
       status: 200,
       data: {
